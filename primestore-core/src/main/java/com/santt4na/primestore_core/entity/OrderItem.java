@@ -8,6 +8,7 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.io.Serial;
 import java.io.Serializable;
 import java.util.Objects;
 
@@ -15,15 +16,14 @@ import java.util.Objects;
 @Getter
 @Setter
 @AllArgsConstructor
-@Table(name = "tb_orderItem")
+@Table(name = "tb_order_item")
 public class OrderItem implements Serializable {
 	
+	@Serial
 	private static final long serialVersionUID = 1L;
 	
 	@EmbeddedId
 	private OrderItemPK id =  new OrderItemPK();
-	
-	private Long productId;
 	
 	private Integer quantity;
 	
@@ -34,6 +34,14 @@ public class OrderItem implements Serializable {
 	
 	public Double getSubTotal() {
 		return price * quantity;
+	}
+	
+	public Order getOrder() {
+		return id.getOrder();
+	}
+	
+	public Product getProduct() {
+		return id.getProduct();
 	}
 	
 	@Override

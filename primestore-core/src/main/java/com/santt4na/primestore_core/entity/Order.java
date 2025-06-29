@@ -1,12 +1,13 @@
 package com.santt4na.primestore_core.entity;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.santt4na.primestore_core.enums.OrderStatus;
+import com.santt4na.enums.OrderStatus;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.io.Serial;
 import java.io.Serializable;
 import java.time.Instant;
 import java.util.HashSet;
@@ -19,7 +20,8 @@ import java.util.Set;
 @AllArgsConstructor
 @Table(name = "tb_order")
 public class Order implements Serializable {
-
+	
+	@Serial
 	private static final long serialVersionUID = 1L;
 	
 	@Id
