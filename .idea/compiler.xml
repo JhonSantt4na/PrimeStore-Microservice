@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="primestore-notifier" />
         <module name="primestore-pay" />
         <module name="primestore-core" />
-        <module name="primestore-auth" />
         <module name="primestore-stock" />
+        <module name="primestore-notifier" />
+        <module name="primestore-auth" />
         <module name="common-events" />
       </profile>
     </annotationProcessing>

@@ -5,63 +5,76 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3875424c-7073-498d-a3ad-0de0ca177455" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-events/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primestore-auth/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primestore-auth/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primestore-auth/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primestore-auth/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primestore-auth/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primestore-auth/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primestore-auth/src/main/java/com/santt4na/primestore_auth/PrimestoreAuthApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primestore-auth/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primestore-auth/src/test/java/com/santt4na/primestore_auth/PrimestoreAuthApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primestore-core/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primestore-core/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primestore-core/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primestore-core/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primestore-core/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primestore-core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primestore-core/src/main/java/com/santt4na/primestore_core/PrimestoreCoreApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primestore-core/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primestore-core/src/test/java/com/santt4na/primestore_core/PrimestoreCoreApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primestore-notifier/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primestore-notifier/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primestore-notifier/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primestore-notifier/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primestore-notifier/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primestore-notifier/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primestore-notifier/src/main/java/com/santt4na/primestore_notifier/PrimestoreNotifierApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primestore-notifier/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primestore-notifier/src/test/java/com/santt4na/primestore_notifier/PrimestoreNotifierApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primestore-pay/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primestore-pay/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primestore-pay/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primestore-pay/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primestore-pay/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primestore-pay/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primestore-pay/src/main/java/com/santt4na/primestore_pay/PrimestorePayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primestore-pay/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primestore-pay/src/test/java/com/santt4na/primestore_pay/PrimestorePayApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primestore-stock/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primestore-stock/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primestore-stock/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primestore-stock/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primestore-stock/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primestore-stock/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primestore-stock/src/main/java/com/santt4na/primestore_stock/PrimestoreStockApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primestore-stock/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primestore-stock/src/test/java/com/santt4na/primestore_stock/PrimestoreStockApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Enum" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitToolBoxStore">
-    <option name="recentBranches">
-      <RecentBranches>
-        <option name="branchesForRepo">
-          <list>
-            <RecentBranchesForRepo>
-              <option name="branches">
-                <list>
-                  <RecentBranch>
-                    <option name="branchName" value="feat/ecommerce" />
-                    <option name="lastUsedInstant" value="1751227859" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="feat/common-events" />
-                    <option name="lastUsedInstant" value="1751227798" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="common-events" />
-                    <option name="lastUsedInstant" value="1751227225" />
-                  </RecentBranch>
-                </list>
-              </option>
-              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
-            </RecentBranchesForRepo>
-          </list>
-        </option>
-      </RecentBranches>
-    </option>
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 3
-}</component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 3
+}]]></component>
   <component name="ProjectId" id="2zBRVrZAf3tVJ3VMrlemMRZKEPo" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -79,9 +92,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "feat/ecommerce",
-    "last_opened_file_path": "/home/santt4na/IdeaProjects/PrimeStore-Microservice/common-events",
-    "onboarding.tips.debug.path": "/home/santt4na/IdeaProjects/PrimeStore-Microservice/common-events/src/main/java/com/santt4na/Main.java"
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/santt4na/IdeaProjects/PrimeStore-Microservice/common-events"
   }
 }]]></component>
   <component name="RunManager" selected="Application.PrimestoreNotifierApplication">
@@ -180,16 +192,5 @@
       <updated>1751202508520</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/common-events/src/main/java/com/santt4na/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
