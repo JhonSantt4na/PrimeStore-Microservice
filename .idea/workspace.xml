@@ -5,62 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3875424c-7073-498d-a3ad-0de0ca177455" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-events/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primestore-auth/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primestore-auth/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primestore-auth/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primestore-auth/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primestore-auth/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primestore-auth/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primestore-auth/src/main/java/com/santt4na/primestore_auth/PrimestoreAuthApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primestore-auth/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primestore-auth/src/test/java/com/santt4na/primestore_auth/PrimestoreAuthApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primestore-core/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primestore-core/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primestore-core/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primestore-core/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primestore-core/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primestore-core/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primestore-core/src/main/java/com/santt4na/primestore_core/PrimestoreCoreApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primestore-core/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primestore-core/src/test/java/com/santt4na/primestore_core/PrimestoreCoreApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primestore-notifier/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primestore-notifier/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primestore-notifier/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primestore-notifier/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primestore-notifier/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primestore-notifier/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primestore-notifier/src/main/java/com/santt4na/primestore_notifier/PrimestoreNotifierApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primestore-notifier/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primestore-notifier/src/test/java/com/santt4na/primestore_notifier/PrimestoreNotifierApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primestore-pay/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primestore-pay/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primestore-pay/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primestore-pay/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primestore-pay/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primestore-pay/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primestore-pay/src/main/java/com/santt4na/primestore_pay/PrimestorePayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primestore-pay/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primestore-pay/src/test/java/com/santt4na/primestore_pay/PrimestorePayApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primestore-stock/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primestore-stock/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primestore-stock/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primestore-stock/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primestore-stock/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primestore-stock/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primestore-stock/src/main/java/com/santt4na/primestore_stock/PrimestoreStockApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primestore-stock/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primestore-stock/src/test/java/com/santt4na/primestore_stock/PrimestoreStockApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/primestore-core/src/main/java/com/santt4na/primestore_core/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/primestore-core/src/main/java/com/santt4na/primestore_core/entity/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/primestore-core/src/main/java/com/santt4na/primestore_core/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/primestore-core/src/main/java/com/santt4na/primestore_core/entity/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/primestore-core/src/main/java/com/santt4na/primestore_core/entity/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/primestore-core/src/main/java/com/santt4na/primestore_core/entity/OrderItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/primestore-core/src/main/java/com/santt4na/primestore_core/entity/PK/OrderItemPK.java" beforeDir="false" afterPath="$PROJECT_DIR$/primestore-core/src/main/java/com/santt4na/primestore_core/entity/PK/OrderItemPK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/primestore-core/src/main/java/com/santt4na/primestore_core/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/primestore-core/src/main/java/com/santt4na/primestore_core/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/primestore-core/src/main/java/com/santt4na/primestore_core/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/primestore-core/src/main/java/com/santt4na/primestore_core/repository/ProductRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,46 +22,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
-  <component name="ProjectId" id="2zBRVrZAf3tVJ3VMrlemMRZKEPo" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-    <option name="showScratchesAndConsoles" value="false" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.PrimestoreAuthApplication.executor": "Run",
     "Application.PrimestoreCoreApplication.executor": "Run",
-    "Application.PrimestoreNotifierApplication.executor": "Run",
-    "Application.PrimestorePayApplication.executor": "Run",
-    "Application.PrimestoreStockApplication.executor": "Run",
     "Maven.primestore-microservices [clean].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/santt4na/IdeaProjects/PrimeStore-Microservice/common-events"
+    "git-widget-placeholder": "feat/ecommerce"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.PrimestoreNotifierApplication">
-    <configuration name="PrimestoreAuthApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.santt4na.primestore_auth.PrimestoreAuthApplication" />
-      <module name="primestore-auth" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.santt4na.primestore_auth.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="PrimestoreCoreApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.santt4na.primestore_core.PrimestoreCoreApplication" />
       <module name="primestore-core" />
@@ -123,74 +46,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimestoreNotifierApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.santt4na.primestore_notifier.PrimestoreNotifierApplication" />
-      <module name="primestore-notifier" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.santt4na.primestore_notifier.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrimestorePayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.santt4na.primestore_pay.PrimestorePayApplication" />
-      <module name="primestore-pay" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.santt4na.primestore_pay.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrimestoreStockApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.santt4na.primestore_stock.PrimestoreStockApplication" />
-      <module name="primestore-stock" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.santt4na.primestore_stock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="PrimeStore-Microservice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="PrimeStore-Microservice" />
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PrimestoreNotifierApplication" />
         <item itemvalue="Application.PrimestoreCoreApplication" />
-        <item itemvalue="Application.PrimestoreStockApplication" />
-        <item itemvalue="Application.PrimestorePayApplication" />
-        <item itemvalue="Application.PrimestoreAuthApplication" />
       </list>
     </recent_temporary>
   </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="3875424c-7073-498d-a3ad-0de0ca177455" name="Changes" comment="" />
-      <created>1751202508520</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1751202508520</updated>
-    </task>
     <servers />
   </component>
 </project>
