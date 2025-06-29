@@ -1,13 +1,13 @@
 # 🛒 PrimeStore Microservices - Sistema de E-commerce
 
-
 [![Java](https://img.shields.io/badge/Java-21-blue.svg)](https://www.oracle.com/java/)
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2.3-brightgreen)](https://spring.io/projects/spring-boot)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Progress](https://img.shields.io/badge/progress-60%25-yellow)](README.md)
+[![Progress](https://img.shields.io/badge/progress-30%25-yellow)](README.md)
 
 **PrimeStore** é um sistema de e-commerce desenvolvido com uma arquitetura de microserviços utilizando Java 21 e Spring Boot. O projeto demonstra boas práticas de desenvolvimento backend, como comunicação assíncrona via Apache Kafka, segurança com JWT, persistência em bancos PostgreSQL isolados, e orquestração com Docker. Organizado como um projeto Maven multi-módulo, o PrimeStore é modular, escalável e segue princípios de DevOps e metodologias ágeis.
 O objetivo é simular um ambiente de e-commerce real, com serviços independentes para autenticação, gerenciamento de produtos, pedidos, pagamentos, estoque e notificações, proporcionando uma base robusta para aprendizado e demonstração de habilidades técnicas.
+
 ---
 
 ## 🚀 Funcionalidades
