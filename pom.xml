@@ -1,0 +1,55 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.santt4na</groupId>
+	<artifactId>primestore-microservices</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<name>PrimeStore Microservices</name>
+	<description>Microservices Architecture for PrimeStore E-commerce</description>
+
+	<properties>
+		<java.version>21</java.version>
+		<spring-boot.version>3.5.3</spring-boot.version>
+	</properties>
+
+	<modules>
+		<module>primestore-auth</module>
+		<module>primestore-core</module>
+		<module>primestore-pay</module>
+		<module>primestore-stock</module>
+		<module>primestore-notifier</module>
+		<module>common-events</module>
+	</modules>
+
+	<dependencyManagement>
+		<dependencies>
+			<!-- Gerenciamento centralizado das versões do Spring Boot -->
+			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-dependencies</artifactId>
+				<version>${spring-boot.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+	<build>
+		<pluginManagement>
+			<plugins>
+				<!-- Plugin Spring Boot habilitado para todos os módulos -->
+				<plugin>
+					<groupId>org.springframework.boot</groupId>
+					<artifactId>spring-boot-maven-plugin</artifactId>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+
+</project>

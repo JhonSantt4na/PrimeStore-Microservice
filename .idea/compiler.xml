@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="primestore-pay" />
+        <module name="primestore-core" />
+        <module name="primestore-stock" />
+        <module name="primestore-notifier" />
+        <module name="primestore-auth" />
+        <module name="common-events" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="00-SecurePass" target="1.8" />
+      <module name="01-PrimeStore" target="1.8" />
+      <module name="FlashNotifier" target="21" />
+      <module name="PayGateway" target="21" />
+      <module name="StockSync" target="21" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="00-SecurePass" options="-parameters" />
+      <module name="01-PrimeStore" options="-parameters" />
+      <module name="FlashNotifier" options="-parameters" />
+      <module name="PayGateway" options="-parameters" />
+      <module name="StockSync" options="-parameters" />
+      <module name="primestore-auth" options="" />
+      <module name="primestore-core" options="" />
+      <module name="primestore-notifier" options="" />
+      <module name="primestore-pay" options="" />
+      <module name="primestore-stock" options="" />
+    </option>
+  </component>
+</project>

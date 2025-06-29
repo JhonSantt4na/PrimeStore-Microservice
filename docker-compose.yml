@@ -1,0 +1,57 @@
+version: '3.9'
+
+services:
+
+  postgres-auth:
+    image: postgres:15
+    container_name: postgres-auth
+    environment:
+      POSTGRES_DB: authdb
+      POSTGRES_USER: santt4na
+      POSTGRES_PASSWORD: santt4na
+    ports:
+      - "5432:5432"
+    volumes:
+      - pg_auth_data:/var/lib/postgresql/data
+
+  postgres-core:
+    image: postgres:15
+    container_name: postgres-core
+    environment:
+      POSTGRES_DB: coredb
+      POSTGRES_USER: santt4na
+      POSTGRES_PASSWORD: santt4na
+    ports:
+      - "5433:5432"
+    volumes:
+      - pg_core_data:/var/lib/postgresql/data
+
+  postgres-pay:
+    image: postgres:15
+    container_name: postgres-pay
+    environment:
+      POSTGRES_DB: paydb
+      POSTGRES_USER: santt4na
+      POSTGRES_PASSWORD: santt4na
+    ports:
+      - "5434:5432"
+    volumes:
+      - pg_pay_data:/var/lib/postgresql/data
+
+  postgres-stock:
+    image: postgres:15
+    container_name: postgres-stock
+    environment:
+      POSTGRES_DB: stockdb
+      POSTGRES_USER: santt4na
+      POSTGRES_PASSWORD: santt4na
+    ports:
+      - "5435:5432"
+    volumes:
+      - pg_stock_data:/var/lib/postgresql/data
+
+volumes:
+  pg_auth_data:
+  pg_core_data:
+  pg_pay_data:
+  pg_stock_data:
