@@ -1,6 +1,5 @@
 package com.santt4na.primestore_core.controller;
 
-import com.santt4na.primestore_core.controller.docs.CategoryControllerDocs;
 import com.santt4na.primestore_core.dto.request.Category.CategoryCreateDTO;
 import com.santt4na.primestore_core.dto.request.Category.CategoryUpdateDTO;
 import com.santt4na.primestore_core.dto.response.CategoryResponseDTO;

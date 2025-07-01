@@ -1,6 +1,5 @@
 package com.santt4na.primestore_core.controller;
 
-import com.santt4na.primestore_core.controller.docs.ProductControllerDocs;
 import com.santt4na.primestore_core.dto.request.Product.ProductCreateDTO;
 import com.santt4na.primestore_core.dto.request.Product.ProductUpdateDTO;
 import com.santt4na.primestore_core.dto.response.ProductResponseDTO;

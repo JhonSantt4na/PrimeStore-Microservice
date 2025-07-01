@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3875424c-7073-498d-a3ad-0de0ca177455" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/primestore-core/src/main/java/com/santt4na/primestore_core/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/primestore-core/src/main/java/com/santt4na/primestore_core/entity/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/primestore-core/src/main/java/com/santt4na/primestore_core/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/primestore-core/src/main/java/com/santt4na/primestore_core/entity/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/primestore-core/src/main/java/com/santt4na/primestore_core/entity/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/primestore-core/src/main/java/com/santt4na/primestore_core/entity/OrderItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/primestore-core/src/main/java/com/santt4na/primestore_core/entity/PK/OrderItemPK.java" beforeDir="false" afterPath="$PROJECT_DIR$/primestore-core/src/main/java/com/santt4na/primestore_core/entity/PK/OrderItemPK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/primestore-core/src/main/java/com/santt4na/primestore_core/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/primestore-core/src/main/java/com/santt4na/primestore_core/entity/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/primestore-core/src/main/java/com/santt4na/primestore_core/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/primestore-core/src/main/java/com/santt4na/primestore_core/repository/ProductRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
