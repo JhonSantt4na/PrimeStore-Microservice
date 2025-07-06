@@ -47,3 +47,7 @@ Dockerfile
 # Testes
 target/test-classes/
 target/surefire-reports/
+
+.idea/workspace.xml
+.idea/usage.statistics.xml
+.idea/tasks.xml
