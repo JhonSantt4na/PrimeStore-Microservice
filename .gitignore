@@ -1,49 +1,66 @@
-# Arquivos do sistema
+# Sistema Operacional
 .DS_Store
 Thumbs.db
 
-# Maven
+# Compilação Java
+*.class
 target/
-!.mvn/wrapper/maven-wrapper.jar
+
+# Maven Wrapper
+.mvn/wrapper/maven-wrapper.jar
 .mvn/wrapper/maven-wrapper.properties
 
-# IntelliJ IDEA
+# Gradle (caso use no futuro)
+.gradle
+build/
+gradlew
+gradlew.bat
+gradle/wrapper/
+
+# IDEs
 .idea/
 *.iml
-*.iws
-out/
 *.ipr
+*.iws
+.vscode/
+.project
+.classpath
+.settings/
 
 # Logs
 *.log
+spring.log
 
-# Arquivos temporários
+# Temporários
 *.tmp
 *.temp
 *.swp
 
-# Spring Boot
-spring.log
-
-# Arquivos do sistema operacional
-*.class
-
 # Docker
-docker-compose.override.yml
-
-# Diretórios do Docker
 docker/
 Dockerfile
+docker-compose.override.yml
+*.tar
+*.img
 
-# Configurações locais e sensíveis
+# Configurações Sensíveis
 *.env
 .env.*
+*.key
+*.pem
+*.crt
 
-# Outros arquivos gerados
+# Arquivos Gerados
 *.jar
 *.war
 *.ear
 
-# Testes
+# Testes e Cobertura
 target/test-classes/
 target/surefire-reports/
+coverage/
+jacoco.exec
+.sonar/
+
+# Conflitos
+*.orig

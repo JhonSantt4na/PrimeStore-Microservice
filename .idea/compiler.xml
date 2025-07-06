@@ -46,9 +46,9 @@
       <module name="StockSync" options="-parameters" />
       <module name="primestore-auth" options="" />
       <module name="primestore-core" options="" />
-      <module name="primestore-notifier" options="" />
-      <module name="primestore-pay" options="" />
-      <module name="primestore-stock" options="" />
+      <module name="primestore-notifier" options="-parameters" />
+      <module name="primestore-pay" options="-parameters" />
+      <module name="primestore-stock" options="-parameters" />
     </option>
   </component>
 </project>
