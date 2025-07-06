@@ -25,6 +25,7 @@
 		<module>primestore-stock</module>
 		<module>primestore-notifier</module>
 		<module>common-events</module>
+		<module>common-events</module>
 	</modules>
 
 	<dependencyManagement>
